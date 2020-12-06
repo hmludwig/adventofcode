@@ -2,7 +2,10 @@
 
 My solutions for [Advent of Code 2020](https://adventofcode.com/2020/). 
 
-## Solution execution times (python -m profile src/dayxx.py input/inputxx)
+## Benchmark
+```
+python -m profile src/dayXX.py input/inputXX
+```
 
 | Day |      Time     |
 |:---:|:-------------:|
