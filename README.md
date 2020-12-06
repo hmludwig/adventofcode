@@ -14,8 +14,7 @@ My solutions for [Advent of Code 2020](https://adventofcode.com/2020/).
 
 The benchmarks have been measured on this machine:
 ```
-Platform Info:
-    OS: Pop!_OS 20.04 LTS x86_64
-    Kernel: 5.8.0-7630-generic 
-    CPU: AMD Ryzen 7 3700X (16) @ 3.600GHz
+OS: Pop!_OS 20.04 LTS x86_64
+Kernel: 5.8.0-7630-generic 
+CPU: AMD Ryzen 7 3700X (16) @ 3.600GHz
 ```
