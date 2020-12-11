@@ -19,6 +19,7 @@ python -m cProfile src/dayXX.py input/inputXX
 |  [08](https://adventofcode.com/2020/day/8) | 0.085 seconds | [:page_facing_up:](https://github.com/hmludwig/aoc2020/blob/main/src/day08.py)
 |  [09](https://adventofcode.com/2020/day/9) | 0.155 seconds | [:page_facing_up:](https://github.com/hmludwig/aoc2020/blob/main/src/day09.py)
 |  [10](https://adventofcode.com/2020/day/10) | 0.000 seconds | [:page_facing_up:](https://github.com/hmludwig/aoc2020/blob/main/src/day10.py)
+|  [11](https://adventofcode.com/2020/day/11) | 6.649 seconds | [:page_facing_up:](https://github.com/hmludwig/aoc2020/blob/main/src/day11.py)
  
 The benchmarks have been measured on this machine:
 ```
