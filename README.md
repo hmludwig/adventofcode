@@ -8,7 +8,7 @@
 
 * #### [2016](https://github.com/hmludwig/adventofcode/tree/main/2016) - Stars Collected (0/50)
 
-* #### [2017](hhttps://github.com/hmludwig/adventofcode/tree/main/2017) - Stars Collected (0/50)
+* #### [2017](https://github.com/hmludwig/adventofcode/tree/main/2017) - Stars Collected (0/50)
 
 * #### [2018](https://github.com/hmludwig/adventofcode/tree/main/2018) - Stars Collected (0/50)
 
