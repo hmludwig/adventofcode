@@ -14,4 +14,4 @@
 
 * #### [2019](https://github.com/hmludwig/adventofcode/tree/main/2019) - Stars Collected (22/50)
 
-* #### [2020](https://github.com/hmludwig/adventofcode/tree/main/2020) - Stars Collected (38/50)
+* #### [2020](https://github.com/hmludwig/adventofcode/tree/main/2020) - Stars Collected (40/50)
