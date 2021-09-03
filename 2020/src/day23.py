@@ -32,7 +32,7 @@ index_one = cups1.index(1)
 solution1 = solution1.join(
     list(map(str, cups1[index_one + 1:] + cups1[:index_one])))
 
-print(f'Solution 1: {solution1}')
+print(f'Part 1: {solution1}')
 
 current_cup = cups2[0]
 successors = [0] * 10
@@ -60,4 +60,4 @@ for _ in range(10000000):
     current_cup = next_cup
 
 solution2 = successors[1] * successors[successors[1]]
-print(f'Solution 2: {solution2}')
+print(f'Part 2: {solution2}')

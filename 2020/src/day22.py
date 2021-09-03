@@ -33,7 +33,7 @@ for x in winner:
     solution1 += x * length
     length -= 1
 
-print(f'Solution 1: {solution1}')
+print(f'Part 1: {solution1}')
 
 
 def recursive_combat(player1, player2):
@@ -90,4 +90,4 @@ for x in winner:
     solution2 += x * length
     length -= 1
 
-print(f'Solution 2: {solution2}')
+print(f'Part 2: {solution2}')

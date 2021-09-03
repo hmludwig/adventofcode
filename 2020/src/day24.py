@@ -64,7 +64,7 @@ for d in data:
 
 
 solution1 = len(black_tiles)
-print(f'Solution 1: {solution1}')
+print(f'Part 1: {solution1}')
 
 tiles = {}
 x = -100
@@ -90,4 +90,4 @@ for _ in range(100):
     tiles = tmp
 
 solution2 = sum([tiles[k] for k in tiles])
-print(f'Solution 2: {solution2}')
+print(f'Part 2: {solution2}')

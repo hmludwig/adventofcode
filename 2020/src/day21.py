@@ -26,7 +26,7 @@ for x in all_ingredients:
     if x not in known_ingredients:
         solution1 += 1
 
-print(f'Solution 1: {solution1}')
+print(f'Part 1: {solution1}')
 
 while sum([len(x) for x in allergen_wiki.values()]) != len(allergen_wiki):
     allergen_wiki = dict(sorted(allergen_wiki.items(), key = lambda x : len(x[1])))
@@ -40,4 +40,4 @@ solution2 = ''
 for key in sorted(allergen_wiki):
     solution2 += str(list(allergen_wiki[key])[0]) + ','
 
-print(f'Solution 2: {solution2[:-1]}')
+print(f'Part 2: {solution2[:-1]}')
