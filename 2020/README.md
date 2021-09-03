@@ -28,4 +28,6 @@ My solutions for [Advent of Code 2020](https://adventofcode.com/2020/).
 |  [21](https://adventofcode.com/2020/day/21) | :star: | :star: | [:page_facing_up:](https://github.com/hmludwig/adventofcode/blob/main/2020/src/day21.py)
 |  [22](https://adventofcode.com/2020/day/22) | :star: | :star: | [:page_facing_up:](https://github.com/hmludwig/adventofcode/blob/main/2020/src/day22.py)
 |  [23](https://adventofcode.com/2020/day/23) | :star: | :star: | [:page_facing_up:](https://github.com/hmludwig/adventofcode/blob/main/2020/src/day23.py)
-|  [24](https://adventofcode.com/2020/day/24) | :star: | :star: | [:page_facing_up:](https://github.com/hmludwig/adventofcode/blob/main/2020/src/day24.py)|  [25](https://adventofcode.com/2020/day/25) | | |
+|  [24](https://adventofcode.com/2020/day/24) | :star: | :star: | [:page_facing_up:](https://github.com/hmludwig/adventofcode/blob/main/2020/src/day24.py)
+|  [25](https://adventofcode.com/2020/day/25) | :star: | :star: | [:page_facing_up:](https://github.com/hmludwig/adventofcode/blob/main/2020/src/day25.py)
+

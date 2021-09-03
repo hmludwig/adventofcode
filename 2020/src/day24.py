@@ -3,6 +3,7 @@ import sys
 f = open(sys.argv[1])
 data = f.read().strip().splitlines()
 
+
 def parse_hex_directions(direction):
     directions = []
     i = 0
@@ -11,9 +12,10 @@ def parse_hex_directions(direction):
             directions.append(direction[i])
             i += 1
         elif direction[i] in ['s', 'n']:
-            directions.append(direction[i:i+2])
+            directions.append(direction[i:i + 2])
             i += 2
     return directions
+
 
 def direction2coordinate(direction):
     if direction == 'e':
@@ -29,7 +31,8 @@ def direction2coordinate(direction):
     elif direction == 'ne':
         return (0.5, -0.5)
     else:
-        return (0,0)
+        return (0, 0)
+
 
 def check_adjacent_tiles(tiles, key):
     adjacent_tiles = []
@@ -47,6 +50,7 @@ def check_adjacent_tiles(tiles, key):
 
     return n_black_tiles
 
+
 black_tiles = []
 
 for d in data:
@@ -55,13 +59,12 @@ for d in data:
     posy = 0
     for direction in directions:
         x, y = direction2coordinate(direction)
-        posx += x 
+        posx += x
         posy += y
     if (posx, posy) in black_tiles:
         black_tiles.remove((posx, posy))
     else:
         black_tiles.append((posx, posy))
-
 
 solution1 = len(black_tiles)
 print(f'Part 1: {solution1}')
@@ -73,7 +76,7 @@ for _ in range(400):
     x += 0.5
     y = -100
     for _ in range(400):
-        tiles[(x,y)] = 0
+        tiles[(x, y)] = 0
         y += 0.5
 
 for tile in black_tiles:
@@ -85,7 +88,8 @@ for _ in range(100):
         black_adjacent_tiles = check_adjacent_tiles(tiles, key)
         if tiles[key] == 0 and black_adjacent_tiles == 2:
             tmp[key] = 1
-        elif tiles[key] == 1 and (black_adjacent_tiles == 0 or black_adjacent_tiles > 2):
+        elif tiles[key] == 1 and (black_adjacent_tiles == 0 or
+                                  black_adjacent_tiles > 2):
             tmp[key] = 0
     tiles = tmp
 
